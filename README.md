@@ -27,6 +27,7 @@ The first part of the screenshot is my query, and the second part is a portion o
 <br />
 <p align="center">
 Retrieving Login Attempts on Specific Dates:  <br/>
+
 A suspicious event occurred on 2022-05-09. Any login activity that happened on 2022-05-09 or on the day before needs to be investigated. The following code demonstrates how I created a SQL query to filter for login attempts that occurred on specific dates.
 
 <img src="https://i.imgur.com/sGCbE8m.png" height="80%" width="80%" alt="Retrieving Login Attempts on Specific Dates"/>
@@ -48,6 +49,7 @@ The first part of the screenshot is my query, and the second part is a portion o
 <br />
 <p align="center">
 Retrieving Employees in Marketing:  <br/>
+
 My team wants to update the computers for certain employees in the Marketing department. To do this, I have to get information on which employee machines to update. The following code demonstrates how I created a SQL query to filter for employee machines from employees in the Marketing department in the East building.
 
 <img src="https://i.imgur.com/4IdUEQF.png" height="80%" width="80%" alt="Retrieving Employees in Marketing"/>
@@ -58,6 +60,7 @@ The first part of the screenshot is my query, and the second part is a portion o
 <br />
 <p align="center">
 Retrieving Employees in Finance or Sales:  <br/>
+
 The machines for employees in the Finance and Sales departments also need to be updated. Since a different security update is needed, I have to get information on employees only from these two departments. The following code demonstrates how I created a SQL query to filter for employee machines from employees in the Finance or Sales departments.
 
 <img src="https://i.imgur.com/Ha8AVEs.png" height="80%" width="80%" alt="Retrieving Employees in Finance or Sales"/>
@@ -68,6 +71,7 @@ The first part of the screenshot is my query, and the second part is a portion o
 <br />
 <p align="center">
 Retrieving All Employees Not in IT:  <br/>
+
 My team needs to make one more security update on employees who are not in the Information Technology department. To make the update, I first have to get information on these employees. The following demonstrates how I created a SQL query to filter for employee machines from employees not in the  Information Technology department.
 
 <img src="https://i.imgur.com/K5ppZJO.png" height="80%" width="80%" alt="Retrieving All Employees Not in IT"/>
@@ -76,6 +80,7 @@ The first part of the screenshot is my query, and the second part is a portion o
 
 <br />
 <br />
+
 <p align="center">
 <h2>Summary</h2>
 I applied filters to SQL queries to get specific information on login attempts and employee machines. I used two different tables, log_in_attempts and employees. I used the AND, OR, and NOT operators to filter for the specific information needed for each task. I also used LIKE and the percentage sign (%) wildcard to filter for patterns.
