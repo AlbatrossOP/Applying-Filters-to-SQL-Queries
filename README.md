@@ -30,7 +30,7 @@ Retrieving Login Attempts on Specific Dates:  <br/>
 
 A suspicious event occurred on 2022-05-09. Any login activity that happened on 2022-05-09 or on the day before needs to be investigated. The following code demonstrates how I created a SQL query to filter for login attempts that occurred on specific dates.
 
-<img src="https://i.imgur.com/sGCbE8m.png" height="80%" width="80%" alt="Retrieving Login Attempts on Specific Dates"/>
+<img src="https://i.imgur.com/4PYm3wk.png" height="80%" width="80%" alt="Retrieving Login Attempts on Specific Dates"/>
 <br />
 
 The first part of the screenshot is my query, and the second part is a portion of the output. This query returns all login attempts that occurred on 2022-05-09 or 2022-05-08. First, I started by selecting all data from the log_in_attempts table. Then, I used a WHERE clause with an OR operator to filter my results to output only login attempts that occurred on either 2022-05-09 or 2022-05-08. The first condition is login_date = '2022-05-09', which filters for logins on 2022-05-09. The second condition is login_date = '2022-05-08', which filters for logins on 2022-05-08.
